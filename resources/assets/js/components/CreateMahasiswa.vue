@@ -1,25 +1,12 @@
 <template>
     <main class="main">
-    <headful v-bind:title="'Mahasiswa - ' + appName" description="Mahasiswa" />
+    <headful v-bind:title="'Create new - ' + appName" description="Mahasiswa" />
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
         <li class="breadcrumb-item">Home</li>
-        <li class="breadcrumb-item">
-            <a href="#">Admin</a>
-        </li>
-        <li class="breadcrumb-item active">Dashboard</li>
-        <!-- Breadcrumb Menu-->
-        <li class="breadcrumb-menu d-md-down-none">
-            <div class="btn-group" role="group" aria-label="Button group">
-                <a class="btn" href="#">
-                    <i class="icon-speech"></i>
-                </a>
-                <a class="btn" href="./">
-                    <i class="icon-graph"></i> Dashboard</a>
-                <a class="btn" href="#">
-                    <i class="icon-settings"></i> Settings</a>
-            </div>
-        </li>
+        <li class="breadcrumb-item">Dashboard</li>
+        <li class="breadcrumb-item">Mahasiswa</li>
+        <li class="breadcrumb-item active">Create new</li>
     </ol>
     <div class="container-fluid">
         <div class="animated fadeIn">
